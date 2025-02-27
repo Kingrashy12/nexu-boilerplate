@@ -1,0 +1,22 @@
+{
+  "name": "nexu-app",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with nexujs-cli.",
+  "main": "server.js",
+  "type": "module",
+  "private": "true",
+  "scripts": {
+    "start": "nexujs start",
+    "dev": "nexujs dev",
+    "update": "nexujs-cli update-deps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nexujs": "^0.1.30"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
