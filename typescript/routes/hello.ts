@@ -1,12 +1,12 @@
 // All routes should be structured as follows
 import { nexuRouter, sendMsg } from "nexujs";
 
-const router = nexuRouter;
+const HelloRoutes = nexuRouter;
 
-router.get("/", (req, res, next) => {
+HelloRoutes.get("/", (req, res, next) => {
   // Try Changing this to `res.json`
   res.send("Hi 👋, Welcome to the Nexu.");
   console.log(sendMsg().log);
 });
 
-export = router;
+export = HelloRoutes;
