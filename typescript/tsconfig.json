@@ -8,10 +8,7 @@
     "noUnusedLocals": true,
     "noImplicitAny": true,
     "outDir": "./dist",
-    "skipLibCheck": true,
-    "paths": {
-      "@/*": ["./*"]
-    }
+    "skipLibCheck": true
   },
   "include": ["./**/*.ts"],
   "exclude": ["node_modules"]
