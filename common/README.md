@@ -6,9 +6,9 @@ This is a **Nexu** project bootstrapped with [nexujs-cli]().
 
 First, run the development server:
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 The server will run on [http://localhost:5000](http://localhost:5000) by default.
 
@@ -18,15 +18,15 @@ You can modify the routes and API endpoints in the routes directory. The server 
 
 To keep your project up to date with the latest versions of its dependencies, run the following command:
 
-\`\`\`bash
+```bash
 npm run update
-\`\`\`
+```
 
 This will automatically update all dependencies to their latest versions.
 
 ## Changing Default Configuration
 
-If you need to change the default configuration for your NexuJS project, you can do so by modifying the \`nexu.config\` file. This file allows you to customize various aspects of the project, such as port settings, middleware, routes, and more.
+If you need to change the default configuration for your NexuJS project, you can do so by modifying the `nexu.config` file. This file allows you to customize various aspects of the project, such as port settings, middleware, routes, and more.
 
 For more information on configuration options, refer to the [NexuJS Documentation](https://github.com/Kingrashy12/nexu/blob/main/packages/nexujs/README.md#configuration).
 
