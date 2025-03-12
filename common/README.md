@@ -24,6 +24,14 @@ npm run update
 
 This will automatically update all dependencies to their latest versions.
 
+## Generate `.env` file with required keys
+
+Just in case you don't have a `.env` file, run the following command to generate a new one:
+
+```bash
+npx nexujs-cli mk env
+```
+
 ## Changing Default Configuration
 
 If you need to change the default configuration for your NexuJS project, you can do so by modifying the `nexu.config` file. This file allows you to customize various aspects of the project, such as port settings, middleware, routes, and more.
